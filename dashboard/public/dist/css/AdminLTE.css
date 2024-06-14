@@ -47,7 +47,7 @@ body {
   position: relative;
 }
 .layout-boxed {
-  background-color: #f9fafc;
+  background-color: #ffffff;
 }
 /*
  * Content Wrapper - contains the main content
@@ -168,7 +168,7 @@ h6,
 }
 /* General Links */
 a {
-  color: #3c8dbc;
+  color: #c53076;
 }
 a:hover,
 a:active,
@@ -1282,7 +1282,7 @@ a:focus {
   border-color: #d2d6de;
 }
 .form-control:focus {
-  border-color: #3c8dbc;
+  border-color: #ee2a7f;
   box-shadow: none;
 }
 .form-control::-moz-placeholder,
@@ -1440,7 +1440,7 @@ a:focus {
 }
 .progress-bar-light-blue,
 .progress-bar-primary {
-  background-color: #3c8dbc;
+  background-color: #ee2a7f;
 }
 .progress-striped .progress-bar-light-blue,
 .progress-striped .progress-bar-primary {
@@ -1580,10 +1580,10 @@ a:focus {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 .box.box-primary {
-  border-top-color: #3c8dbc;
+  border-top-color: #ee2a7f;
 }
 .box.box-info {
-  border-top-color: #00c0ef;
+  border-top-color: #ee2a7f;
 }
 .box.box-danger {
   border-top-color: #dd4b39;
@@ -1658,7 +1658,7 @@ a:focus {
 .box.box-solid.box-info > .box-header {
   color: #ffffff;
   background: #00c0ef;
-  background-color: #00c0ef;
+  background-color: #ee2a7f;
 }
 .box.box-solid.box-info > .box-header a,
 .box.box-solid.box-info > .box-header .btn {

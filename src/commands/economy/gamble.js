@@ -78,7 +78,7 @@ function calculateReward(amount, var1, var2, var3) {
 async function gamble(user, betAmount) {
   if (isNaN(betAmount)) return "Bet amount needs to be a valid number input";
   if (betAmount < 0) return "Bet amount cannot be negative";
-  if (betAmount < 10) return "Bet amount cannot be less than 10";
+  if (betAmount < 100) return "Bet amount cannot be less than 100";
 
   const userDb = await getUser(user);
   if (userDb.coins < betAmount)
@@ -112,7 +112,7 @@ async function gamble(user, betAmount) {
     .setColor(EMBED_COLORS.TRANSPARENT)
     .setThumbnail("https://i.pinimg.com/originals/9a/f1/4e/9af14e0ae92487516894faa9ea2c35dd.gif")
     .setDescription(str)
-    .setFooter({ text: `${result}\nUpdated Wallet balance: ${userDb?.coins}${ECONOMY.CURRENCY}` });
+    .setFooter({ text: `${result}\nNew Balance: ${userDb?.coins}${ECONOMY.CURRENCY}` });
 
   return { embeds: [embed] };
 }

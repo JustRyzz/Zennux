@@ -20,7 +20,7 @@
 				<section class="content-header">
 					<h3> Greeting </h3>
 					<ol class="breadcrumb">
-                        <li><a href="/"><i class="fa fa-home"></i>Selector</a></li>
+                        <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
                         <li><a href="<%=`/manage/${guild.id}/`%>"><%=guild.name%></a></li>
                         <li class="active">Greeting</li>
 					</ol>
@@ -69,7 +69,7 @@
                                                     <% guild.channels.cache.filter((ch) => ch.id !== guild.welcome.channel && ch.type === 0).forEach((ch) => { %>
                                                         <option>#<%= ch.name %></option>
                                                     <% }); } else { %>
-                                                    <option disabled selected value> -- select an option -- </option>
+                                                    <option disabled selected value> -- select a channel -- </option>
                                                     <% guild.channels.cache.filter((ch) => ch.id !== guild.channels.cache.first().id && ch.type === 0).forEach((ch) => { %>
                                                         <option>#<%= ch.name %></option>
                                                     <% }); %>
@@ -90,10 +90,10 @@
                                     </div>
                                     <div class="box-footer">
                                         <% if(guild.welcome.enabled){ %>
-                                            <button type="submit" name="welcomeDisable" class="btn btn-danger">Disable Messages</button>
-                                            <button type="submit" name="welcomeUpdate" class="btn btn-primary pull-right">Update</button>
+                                            <button type="submit" name="welcomeDisable" class="btn btn-danger">Disable</button>
+                                            <button type="submit" name="welcomeUpdate" class="btn btn-primary pull-right">Update Embed</button>
                                         <% } else { %>
-                                            <button type="submit" name="welcomeEnable" class="btn btn-success">Enable Message</button>
+                                            <button type="submit" name="welcomeEnable" class="btn btn-success">Enable</button>
                                         <% } %>
                                     </div>
                                 </form>
@@ -104,7 +104,7 @@
                             <!-- FAREWELL CONFIGURATION -->
                             <div class="box box-danger">
                                 <div class="box-header with-border">
-                                    <h3 class="box-title">Farewell Configuration</h3>
+                                    <h3 class="box-title">Farewell Embed</h3>
                                 </div>
                                 <form role="form" action="/manage/<%= guild.id %>/greeting" method="POST">
                                     <div class="box-body">
@@ -140,7 +140,7 @@
                                                     <% guild.channels.cache.filter((ch) => ch.id !== guild.farewell.channel && ch.type === 0).forEach((ch) => { %>
                                                         <option>#<%= ch.name %></option>
                                                     <% }); } else { %>
-                                                        <option disabled selected value> -- select an option -- </option>
+                                                        <option disabled selected value> -- select a channel -- </option>
                                                     <% guild.channels.cache.filter((ch) => ch.id !== guild.channels.cache.first().id && ch.type === 0).forEach((ch) => { %>
                                                         <option>#<%= ch.name %></option>
                                                     <% }); %>
@@ -161,10 +161,10 @@
                                     </div>
                                     <div class="box-footer">
                                         <% if(guild.farewell.enabled){ %>
-                                            <button type="submit" name="farewellDisable" class="btn btn-danger">Disable Messages</button>
-                                            <button type="submit" name="farewellUpdate" class="btn btn-primary pull-right">Update</button>
+                                            <button type="submit" name="farewellDisable" class="btn btn-danger">Disable</button>
+                                            <button type="submit" name="farewellUpdate" class="btn btn-primary pull-right">Update Embed</button>
                                         <% } else { %>
-                                            <button type="submit" name="farewellEnable" class="btn btn-success">Enable Message</button>
+                                            <button type="submit" name="farewellEnable" class="btn btn-success">Enable</button>
                                         <% } %>
                                     </div>
                                 </form>

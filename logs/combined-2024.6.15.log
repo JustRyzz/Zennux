@@ -1,0 +1,67 @@
+{"level":30,"time":1718405051973,"pid":308,"hostname":"SuweyNixam","msg":"Validating config file and environment variables"}
+{"level":40,"time":1718405051982,"pid":308,"hostname":"SuweyNixam","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1718405052197,"pid":308,"hostname":"SuweyNixam","msg":"Loading commands..."}
+{"level":20,"time":1718405052220,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1718405052223,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command autodelete. Category AUTOMOD is disabled"}
+{"level":20,"time":1718405052356,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1718405052869,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1718405052870,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1718405052872,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1718405052879,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1718405052881,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1718405052884,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1718405052888,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1718405052889,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1718405052900,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1718405052901,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1718405052902,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1718405052904,"pid":308,"hostname":"SuweyNixam","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1718405052905,"pid":308,"hostname":"SuweyNixam","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1718405052920,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1718405052922,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1718405052923,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1718405052924,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1718405052925,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1718405052926,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1718405052927,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1718405052928,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1718405052929,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1718405052931,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1718405052932,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1718405052935,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1718405052938,"pid":308,"hostname":"SuweyNixam","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1718405052940,"pid":308,"hostname":"SuweyNixam","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1718405052947,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1718405052950,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1718405052952,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1718405052956,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1718405052956,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1718405052958,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1718405052959,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1718405052959,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1718405052961,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1718405052962,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1718405052962,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1718405052963,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1718405052964,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1718405052965,"pid":308,"hostname":"SuweyNixam","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1718405052967,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1718405052967,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1718405052968,"pid":308,"hostname":"SuweyNixam","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1718405053004,"pid":308,"hostname":"SuweyNixam","msg":"Loaded 85 commands"}
+{"level":30,"time":1718405053004,"pid":308,"hostname":"SuweyNixam","msg":"Loaded 66 slash commands"}
+{"level":30,"time":1718405053004,"pid":308,"hostname":"SuweyNixam","msg":"Loading contexts..."}
+{"level":30,"time":1718405053006,"pid":308,"hostname":"SuweyNixam","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1718405053007,"pid":308,"hostname":"SuweyNixam","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1718405053007,"pid":308,"hostname":"SuweyNixam","msg":"Loading events..."}
+{"level":30,"time":1718405053067,"pid":308,"hostname":"SuweyNixam","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1718405053756,"pid":308,"hostname":"SuweyNixam","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1718405053756,"pid":308,"hostname":"SuweyNixam","msg":"Launching dashboard"}
+{"level":30,"time":1718405054011,"pid":308,"hostname":"SuweyNixam","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1718405054909,"pid":308,"hostname":"SuweyNixam","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1718405054937,"pid":308,"hostname":"SuweyNixam","msg":"Dashboard is listening on port 8080"}
+{"level":50,"time":1718405055387,"pid":308,"hostname":"SuweyNixam","err":{"type":"TypeError","message":"Cannot read properties of null (reading 'id')","stack":"TypeError: Cannot read properties of null (reading 'id')\n    at D:\\kcuslpplol\\discord\\2024\\Zennux Bot\\dashboard\\utils.js:20:76\n    at Array.forEach (<anonymous>)\n    at Object.fetchUser (D:\\kcuslpplol\\discord\\2024\\Zennux Bot\\dashboard\\utils.js:13:21)\n    at D:\\kcuslpplol\\discord\\2024\\Zennux Bot\\dashboard\\app.js:55:68\n    at Layer.handle [as handle_request] (D:\\kcuslpplol\\discord\\2024\\Zennux Bot\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\kcuslpplol\\discord\\2024\\Zennux Bot\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\kcuslpplol\\discord\\2024\\Zennux Bot\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\kcuslpplol\\discord\\2024\\Zennux Bot\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\kcuslpplol\\discord\\2024\\Zennux Bot\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\kcuslpplol\\discord\\2024\\Zennux Bot\\node_modules\\express-session\\index.js:514:7"},"msg":"Unhandled exception: Cannot read properties of null (reading 'id')"}
+{"level":30,"time":1718405056359,"pid":308,"hostname":"SuweyNixam","msg":"Logged in as Zennux#3626! (1250166951611994163)"}
+{"level":30,"time":1718405056359,"pid":308,"hostname":"SuweyNixam","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1718405056431,"pid":308,"hostname":"SuweyNixam","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1718405057257,"pid":308,"hostname":"SuweyNixam","msg":"Successfully registered interactions"}

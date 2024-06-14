@@ -49,7 +49,7 @@ module.exports = {
         options: [
           {
             name: "user",
-            description: "the user to check reputation for",
+            description: "the user to give reputation for",
             type: ApplicationCommandOptionType.User,
             required: true,
           },
@@ -112,12 +112,12 @@ async function viewReputation(target) {
   if (!userData) return `${target.username} has no reputation yet`;
 
   const embed = new EmbedBuilder()
-    .setAuthor({ name: `Reputation for ${target.username}` })
+    .setAuthor({ name: `Reputations for ${target.username}` })
     .setColor(EMBED_COLORS.BOT_EMBED)
     .setThumbnail(target.displayAvatarURL())
     .addFields(
       {
-        name: "Given",
+        name: "Given", 
         value: userData.reputation?.given.toString(),
         inline: true,
       },
@@ -133,7 +133,7 @@ async function viewReputation(target) {
 
 async function giveReputation(user, target) {
   if (target.bot) return "You cannot give reputation to bots";
-  if (target.id === user.id) return "You cannot give reputation to yourself";
+  if (target.id === user.id) return "You cannot give reputation to yourself, dumbass";
 
   const userData = await getUser(user);
   if (userData && userData.reputation.timestamp) {
@@ -141,7 +141,7 @@ async function giveReputation(user, target) {
     const diff = diffHours(new Date(), lastRep);
     if (diff < 24) {
       const nextUsage = lastRep.setHours(lastRep.getHours() + 24);
-      return `You can again run this command in \`${getRemainingTime(nextUsage)}\``;
+      return `You can re-run this command in \`${getRemainingTime(nextUsage)}\``;
     }
   }
 
@@ -156,8 +156,8 @@ async function giveReputation(user, target) {
 
   const embed = new EmbedBuilder()
     .setColor(EMBED_COLORS.BOT_EMBED)
-    .setDescription(`${target.toString()} +1 Rep!`)
-    .setFooter({ text: `By ${user.username}` })
+    .setDescription(`You just gave **+1 rep** to ${target.toString()}!`)
+    .setFooter({ text: `Reputation from ${user.username}` })
     .setTimestamp(Date.now());
 
   return { embeds: [embed] };

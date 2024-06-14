@@ -120,9 +120,10 @@ async function getHelpMenu({ client, guild }) {
     .setDescription(
       "**About Me:**\n" +
         `Hello I am ${guild.members.me.displayName}!\n` +
-        "A cool multipurpose discord bot which can serve all your needs\n\n" +
-        `**Invite Me:** [Here](${client.getInvite()})\n` +
-        `**Support Server:** [Join](${SUPPORT_SERVER})`
+        ">> Meet our versatile Discord bot! Packed with fun commands for memes and keep your server in check with powerful moderation tools.\n" +
+        ">> Need quick info or utilities? We've got you covered with handy commands!\n\n" +
+        `**Invite Me To Your Server:** [Click Here](${client.getInvite()})\n` +
+        `**Join My Support Server:** [Join Here](${SUPPORT_SERVER})`
     );
 
   return {
