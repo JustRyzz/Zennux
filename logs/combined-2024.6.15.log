@@ -65,3 +65,69 @@
 {"level":30,"time":1718405056359,"pid":308,"hostname":"SuweyNixam","msg":"Initializing giveaways manager..."}
 {"level":30,"time":1718405056431,"pid":308,"hostname":"SuweyNixam","msg":"Giveaway Manager initialized"}
 {"level":30,"time":1718405057257,"pid":308,"hostname":"SuweyNixam","msg":"Successfully registered interactions"}
+{"level":30,"time":1718406994467,"pid":23792,"hostname":"SuweyNixam","msg":"Validating config file and environment variables"}
+{"level":40,"time":1718406994471,"pid":23792,"hostname":"SuweyNixam","msg":"env: STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1718406994559,"pid":23792,"hostname":"SuweyNixam","msg":"Loading commands..."}
+{"level":20,"time":1718406994613,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command anti. Category AUTOMOD is disabled"}
+{"level":20,"time":1718406994614,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command autodelete. Category AUTOMOD is disabled"}
+{"level":20,"time":1718406994687,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command automod. Category AUTOMOD is disabled"}
+{"level":20,"time":1718406995365,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command filter. Category IMAGE is disabled"}
+{"level":20,"time":1718406995367,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command generator. Category IMAGE is disabled"}
+{"level":20,"time":1718406995368,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command overlay. Category IMAGE is disabled"}
+{"level":20,"time":1718406995374,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1718406995375,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1718406995377,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1718406995379,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1718406995382,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1718406995393,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1718406995394,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1718406995396,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1718406995398,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1718406995399,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1718406995416,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1718406995418,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1718406995420,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1718406995421,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1718406995421,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1718406995422,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1718406995423,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1718406995424,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1718406995425,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1718406995427,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1718406995429,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1718406995431,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1718406995433,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1718406995434,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1718406995441,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command bassboost. Category MUSIC is disabled"}
+{"level":20,"time":1718406995443,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command loop. Category MUSIC is disabled"}
+{"level":20,"time":1718406995444,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command lyric. Category MUSIC is disabled"}
+{"level":20,"time":1718406995448,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command np. Category MUSIC is disabled"}
+{"level":20,"time":1718406995449,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command pause. Category MUSIC is disabled"}
+{"level":20,"time":1718406995450,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command play. Category MUSIC is disabled"}
+{"level":20,"time":1718406995451,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command queue. Category MUSIC is disabled"}
+{"level":20,"time":1718406995452,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command resume. Category MUSIC is disabled"}
+{"level":20,"time":1718406995453,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command search. Category MUSIC is disabled"}
+{"level":20,"time":1718406995454,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command seek. Category MUSIC is disabled"}
+{"level":20,"time":1718406995454,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command shuffle. Category MUSIC is disabled"}
+{"level":20,"time":1718406995455,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command skip. Category MUSIC is disabled"}
+{"level":20,"time":1718406995456,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command stop. Category MUSIC is disabled"}
+{"level":20,"time":1718406995457,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping Command volume. Category MUSIC is disabled"}
+{"level":20,"time":1718406995458,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1718406995459,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1718406995460,"pid":23792,"hostname":"SuweyNixam","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1718406995493,"pid":23792,"hostname":"SuweyNixam","msg":"Loaded 85 commands"}
+{"level":30,"time":1718406995493,"pid":23792,"hostname":"SuweyNixam","msg":"Loaded 66 slash commands"}
+{"level":30,"time":1718406995493,"pid":23792,"hostname":"SuweyNixam","msg":"Loading contexts..."}
+{"level":30,"time":1718406995495,"pid":23792,"hostname":"SuweyNixam","msg":"Loaded 1 USER contexts"}
+{"level":30,"time":1718406995495,"pid":23792,"hostname":"SuweyNixam","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1718406995495,"pid":23792,"hostname":"SuweyNixam","msg":"Loading events..."}
+{"level":30,"time":1718406995534,"pid":23792,"hostname":"SuweyNixam","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":30,"time":1718406996340,"pid":23792,"hostname":"SuweyNixam","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1718406996340,"pid":23792,"hostname":"SuweyNixam","msg":"Launching dashboard"}
+{"level":30,"time":1718406996581,"pid":23792,"hostname":"SuweyNixam","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1718406997575,"pid":23792,"hostname":"SuweyNixam","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1718406997595,"pid":23792,"hostname":"SuweyNixam","msg":"Dashboard is listening on port 8080"}
+{"level":30,"time":1718406999056,"pid":23792,"hostname":"SuweyNixam","msg":"Logged in as Zennux#3626! (1250166951611994163)"}
+{"level":30,"time":1718406999056,"pid":23792,"hostname":"SuweyNixam","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1718406999121,"pid":23792,"hostname":"SuweyNixam","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1718407000029,"pid":23792,"hostname":"SuweyNixam","msg":"Successfully registered interactions"}
